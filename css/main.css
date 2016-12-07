@@ -26,7 +26,11 @@ header {
   text-align: left;
   float: left;
   overflow: hidden;
-  margin: auto;
+}
+
+.btn:hover {
+  display: inline-block;
+  background-color: #000;
 }
 
 
