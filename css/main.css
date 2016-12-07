@@ -15,6 +15,7 @@ body {
 
 header {
   text-align: center;
+  font-family: "Open Sans", sans-serif;
 }
 
 .btn {
@@ -27,6 +28,13 @@ header {
   float: left;
   overflow: hidden;
 }
+
+.btn-small {
+  font-size: .875em;
+  display: inline-block;
+  background-color: #333;
+}
+
 
 .btn:hover {
   display: inline-block;
@@ -58,8 +66,21 @@ section {
   border-color: #e2e2e2;
 }
 
+body > section:nth-child(3) {
+  background-color: #ccc;
+}
 
+body > section:nth-child(4) {
+  background-color: #aaa;
+}
 
+body > section:last-child {
+  background-color: #999;
+}
+
+div {
+  margin-bottom: 1em;
+}
 
 - *Typefaces:* `Open Sans`
 - *Text sizes:* `2rem`, `.875rem`
