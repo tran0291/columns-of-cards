@@ -7,6 +7,14 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #f2f2f2
+  margin: 0;
+  overflow: hidden;
+}
+
+
+
 - *Typefaces:* `Open Sans`
 - *Text sizes:* `2rem`, `.875rem`
 - *Line height:* `1.5`
