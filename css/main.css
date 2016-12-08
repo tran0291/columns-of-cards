@@ -29,7 +29,7 @@ header {
   overflow: hidden;
 }
 
-.btn.btn-small {
+.btn-small {
   font-size: .875em;
   display: inline-block;
   background-color: #333;
@@ -40,7 +40,6 @@ header {
   border-left: .5px solid #000;
   border-right: .5px solid #000;
 }
-
 
 .btn:hover {
   display: inline-block;
