@@ -29,7 +29,7 @@ header {
   overflow: hidden;
 }
 
-.btn-small {
+.btn.btn-small {
   font-size: .875em;
   display: inline-block;
   background-color: #333;
@@ -38,11 +38,11 @@ header {
   padding: .75em;
   width: 25%;
   border-left: .5px solid #000;
-  border right: .5px solid #000;
+  border-right: .5px solid #000;
 }
 
 
-.btn-small:hover {
+.btn:hover {
   display: inline-block;
   background-color: #000;
 }
@@ -50,7 +50,7 @@ header {
 img {
   width: 100px;
   display: block;
-  margin-left: 0 0 1.5rem;
+  margin: 0 0 1.5rem;
 }
 
 h1 {
@@ -65,7 +65,7 @@ h3 {
 
 section {
   float: left;
-  width: 25;
+  width: 25%;
 }
 
 .column {
@@ -87,11 +87,3 @@ body > section:last-child {
 div {
   margin-bottom: 1em;
 }
-
-- *Typefaces:* `Open Sans`
-- *Text sizes:* `2rem`, `.875rem`
-- *Line height:* `1.5`
-- *Colours:* `#f2f2f2`, `#333`, `#e2e2e2`, `#ccc`, `#aaa`, `#999`
-- *Paddings:* `1.5rem`, `.75rem`
-- *Margins:* `0`, `0 auto 1.5rem`, `0 0 1.5rem`
-- *Image width:* `100px`
